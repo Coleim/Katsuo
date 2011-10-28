@@ -1,0 +1,9 @@
+exe dataExtractor
+  : # sources
+    [ glob-tree *.cpp *.h ]
+  : # requirements
+    <include>include
+  : # default build
+  : # usage requirements
+  ;
+
